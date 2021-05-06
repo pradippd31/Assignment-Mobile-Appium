@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MercariSeleniumSuit]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="pfPack.tests.MercariScenario02">
+        <methods>
+          <include name="scenarioTwo"/>
+          <include name="testClosure"/>
+        </methods>
+      </class> <!-- pfPack.tests.MercariScenario02 -->
+      <class name="pfPack.tests.MercariScenario01">
+        <methods>
+          <include name="testClosure"/>
+          <include name="scenarioOne"/>
+        </methods>
+      </class> <!-- pfPack.tests.MercariScenario01 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [MercariSeleniumSuit] -->
